@@ -15,7 +15,10 @@ ROOT_DIR = os.path.dirname(BASE_DIR)
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.join(ROOT_DIR, 'mayavi'))
 import kitti_util as utils
-import cPickle as pickle
+#　This is used in python 2.7
+# import cPickle as pickle
+# This is used in python 3.5
+import pickle as pickle
 from kitti_object import *
 import argparse
 

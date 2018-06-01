@@ -5,7 +5,10 @@ Date: September 2017
 '''
 from __future__ import print_function
 
-import cPickle as pickle
+#　This is used in python 2.7
+# import cPickle as pickle
+# This is used in python 3.5
+import pickle as pickle
 import sys
 import os
 import numpy as np
